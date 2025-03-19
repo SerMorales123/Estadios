@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: linear-gradient(45deg, #ffcc00, #ff3300, #ff6600);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px black;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-shadow: 1px 1px 3px black;
+}
+
+.carrousel {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #222;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+}
+
+.grande {
+    width: 400%;
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+img {
+    width: 25%;
+    border-radius: 10px;
+}
+
+.puntos {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
+.punto {
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.punto-activo {
+    background-color: white;
+    box-shadow: 0px 0px 5px white;
+}
+
